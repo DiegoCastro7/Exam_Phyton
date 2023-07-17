@@ -14,6 +14,7 @@ while ismenu==True:
         print("3. Modificar cita")
         print("4. Cancelar cita")
         print("5. Salir")
+
         
         opcion=input("Digite la opcion que desea seleccionar: ")
         os.system("clear")
@@ -33,4 +34,3 @@ while ismenu==True:
         elif opcion == "5":
             print("Fin del programa, esperamos que regrese pronto.")
             ismenu=False
-        

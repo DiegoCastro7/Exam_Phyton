@@ -22,7 +22,6 @@ def EditInfo(*args):
 
 def LoadInfo(fileName):
     if CheckFile(fileName)==True:
-        #revisar
         with open ('data/'+fileName, 'r') as read_file:
             dicc=json.load(read_file)
             return dicc
